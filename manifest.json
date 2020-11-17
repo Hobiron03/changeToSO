@@ -5,7 +5,7 @@
   "description": "Hello, World",
   "permissions": ["notifications","alarms", "activeTab", "http://*/*", "https://*/*"],
   "background": {
-    "scripts": ["js/jquery-3.5.1.min.js", "js/main.js"],
+    "scripts": ["js/main.js"],
     "persistent": true
   },
   "content_scripts": [
@@ -15,8 +15,7 @@
         "https://*/*"
       ],
     "js": [
-    "js/main.js",
-    "js/jquery-3.5.1.min.js"
+    "js/main.js"
     ]
   },
   {
@@ -32,7 +31,7 @@
     "128": "images/so128.png"
   },
   "browser_action": {
-    "default_popup": "hello.html",
+    "default_popup": "main.html",
     "default_icon": "images/so128.png"
   }
 }
