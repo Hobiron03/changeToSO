@@ -28,10 +28,10 @@
 
 ],
   "icons": {
-    "128": "images/so128.png"
+    "128": "images/w128.png"
   },
   "browser_action": {
     "default_popup": "main.html",
-    "default_icon": "images/so128.png"
+    "default_icon": "images/w128.png"
   }
 }
